@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=?, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .transformrotate{
+          
+            transition: 4s;
+            display:inline-block
+        }
+        .transformrotate:hover{
+            transform: rotate(180deg);
+        }
+        .transformSkew{
+            background-color:lavender;
+            transition:6s;
+            display:inline-block;
+        }
+        .transformSkew:hover{
+            transform: skew(180deg);
+        }
+        /* transform scale */
+        .joy{   
+            transition: 4s;
+            display: inline-block;
+        }
+        .joy:hover{
+            transform:scale(1.4);
+        }
+        .transformtranslate{
+            display:inline;
+            transition:4s;
+        }
+        .transformtranslate:hover{
+            transform:translate(60px,60px);
+           
+        }
+    </style>
+</head>
+<body>
+    <img src="ht.png" width="300" height="300" class="transformrotate">
+    <img src="css.png" width="300" height="300" class="transformSkew">
+    <img src="js.png" width="300" height="300" class="joy">
+    <img src="react.png" width="300" height="300" class="transformtranslate">
+    <img src="node.png" width="300" height="300">
+    <img src="sql.png" width="300" height="300">
+</body>
+</html>
